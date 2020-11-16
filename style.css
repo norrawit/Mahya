@@ -14,6 +14,8 @@
   width: 1920px;
   height: 4934px;
   z-index: 0;
+  position: absolute;
+  top: 0;
 
 }
 .bg4{
@@ -65,13 +67,13 @@
 .set04{
   position: absolute;
   width: auto;
-  height: 4934px;
-  z-index: 4;
-  top: 0;
+  height: 640px;
+  z-index: 12;
+  top: 1700px;
 }
 .set05{
   position: absolute;
-  width: 100%;
+  width: auto;
   height: 4934px;
   z-index: 3;
   top: 0;
@@ -203,6 +205,7 @@
   width: auto;
   height: 320px;
   z-index: 10;
+  transition: 0.5s;
 }
 @keyframes Eff1 { 
   0%   { left: 300px; transform: scale(1,1); top: 690px;}
@@ -219,16 +222,42 @@
 .Eff2{
   position: absolute;
   animation: Eff2 10s linear infinite;
-  top: 750px;
-  left: -50px;
-  width: auto;
-  height: ;
-  z-index: 2;
+  top: 730px;
+  left: -60px;
+  z-index: 10;
+  transition: 0.5s;
 }
 @keyframes Eff2{
 
 }
-.Eff1:hover , .Eff2:hover, .SP1:hover , .SP2:hover , .setpun1:hover {
+<<<<<<< Updated upstream
+.Eff3{
+  position: absolute;
+  animation: Eff3 10s linear infinite;
+  top: 830px;
+  right: -40px;
+  z-index: 8;
+  width: auto;
+  height: 430px;
+  transition: 0.5s;
+}
+@keyframes Eff3{
+
+}
+.Eff4{
+  position: absolute;
+  animation: Eff4 10s linear infinite;
+  top: 1100px;
+  right: 150px;
+  z-index: 8;
+  width: auto;
+  height: 500px;
+  transition: 0.5s;
+}
+@keyframes Eff4{
+
+}
+.Eff1:hover , .Eff2:hover , .Eff3:hover, .Eff4:hover , .SP1:hover , .SP2:hover , .setpun1:hover , .SP4:hover , .SP5:hover , .SP6:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
 }
@@ -256,6 +285,12 @@
   left: 300px;
   top: 1300px;
 }
+.setpun5{
+  position: absolute;
+  z-index: 4;
+  left: 950px;
+  top: 4000px;
+}
 .SP1{
   transition: 0.5s;
   position: absolute;
@@ -275,4 +310,30 @@
   z-index: 4;
   left: 1400px;
   top: 3100px;
+}
+.SP7{
+  position: absolute;
+  z-index: 4;
+  left: 1500px;
+  top: 6000px;
+}
+.SP4{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  left: 650px;
+  top: 4000px;
+}
+.SP5{
+  transition: 0.5s;
+  position: absolute;
+  z-index: 4;
+  left: 600px;
+  top: 4300px;
+}
+.SP6{
+  position: absolute;
+  z-index: 4;
+  left: 1200px;
+  top: 4600px;
 }
