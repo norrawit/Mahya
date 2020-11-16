@@ -14,6 +14,8 @@
   width: 1920px;
   height: 4934px;
   z-index: 0;
+  position: absolute;
+  top: 0;
 
 }
 .bg4{
@@ -195,6 +197,7 @@
   width: auto;
   height: 320px;
   z-index: 10;
+  transition: 0.5s;
 }
 @keyframes Eff1 { 
   0%   { left: 300px; transform: scale(1,1); top: 690px;}
@@ -214,6 +217,7 @@
   top: 730px;
   left: -60px;
   z-index: 10;
+  transition: 0.5s;
 }
 @keyframes Eff2{
 
@@ -226,6 +230,7 @@
   z-index: 8;
   width: auto;
   height: 430px;
+  transition: 0.5s;
 }
 @keyframes Eff3{
 
@@ -238,6 +243,7 @@
   z-index: 8;
   width: auto;
   height: 500px;
+  transition: 0.5s;
 }
 @keyframes Eff4{
 
