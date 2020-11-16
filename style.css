@@ -10,6 +10,12 @@
   z-index: 4;
 }
 .bg3{
+  background-image: url('img/BG.png');
+  width: auto;
+  height: 4934px;
+  z-index: 0;
+}
+.foot{
 	width: 100%;
 	height: 200px;
 }
