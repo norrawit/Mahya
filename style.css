@@ -185,3 +185,42 @@
 	from{ top: 0px; opacity: 1; transform: scale(1);}
 	to { top: 600px; opacity: 0; transform: scale(0.25);}
 }
+
+/*Animation2*/
+.Eff1{
+  position: absolute;
+  animation: Eff1 10s linear infinite;
+  top: 675px;
+  left: 300px;
+  width: auto;
+  height: 320px;
+  z-index: 10;
+}
+@keyframes Eff1 { 
+  0%   { left: 300px; transform: scale(1,1); top: 690px;}
+  14%  { left: 500px; transform: scale(1,1); top: 675px;}
+  28%  { left: 700px; transform: scale(1,1); top: 690px;}
+  41%  { left: 800px; transform: scale(1,1); top: 675px;}
+  42%  { left: 800px; transform: scale(-1,1); top: 675px;}
+  58%  { left: 800px; transform: scale(-1,1); top: 675px;}
+  72% { left: 600px; transform: scale(-1,1); top: 690px;}
+  86% { left: 400px; transform: scale(-1,1); top: 675px;}
+  99% { left: 300px; transform: scale(-1,1); top: 690px;}
+  100% { left: 300px; transform: scale(1,1); top: 675px;}
+}
+.Eff2{
+  position: absolute;
+  animation: Eff2 10s linear infinite;
+  top: 750px;
+  left: -50px;
+  width: auto;
+  height: ;
+  z-index: 2;
+}
+@keyframes Eff2{
+
+}
+.Eff1:hover , .Eff2:hover{
+    cursor: url(rc.cur), auto;
+    filter: drop-shadow(0 0 50px crimson);
+}
