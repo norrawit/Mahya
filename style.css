@@ -57,13 +57,13 @@
 .set04{
   position: absolute;
   width: auto;
-  height: 4934px;
-  z-index: 4;
-  top: 0;
+  height: 640px;
+  z-index: 12;
+  top: 1700px;
 }
 .set05{
   position: absolute;
-  width: 100%;
+  width: auto;
   height: 4934px;
   z-index: 3;
   top: 0;
@@ -211,16 +211,38 @@
 .Eff2{
   position: absolute;
   animation: Eff2 10s linear infinite;
-  top: 750px;
-  left: -50px;
-  width: auto;
-  height: ;
-  z-index: 2;
+  top: 730px;
+  left: -60px;
+  z-index: 10;
 }
 @keyframes Eff2{
 
 }
-.Eff1:hover , .Eff2:hover{
+.Eff3{
+  position: absolute;
+  animation: Eff3 10s linear infinite;
+  top: 830px;
+  right: -40px;
+  z-index: 8;
+  width: auto;
+  height: 430px;
+}
+@keyframes Eff3{
+
+}
+.Eff4{
+  position: absolute;
+  animation: Eff4 10s linear infinite;
+  top: 1100px;
+  right: 150px;
+  z-index: 8;
+  width: auto;
+  height: 500px;
+}
+@keyframes Eff4{
+
+}
+.Eff1:hover , .Eff2:hover, .Eff3:hover, .Eff4:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
 }
