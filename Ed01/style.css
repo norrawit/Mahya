@@ -223,11 +223,10 @@ body{
 	position: absolute;
 	top: 0;
 	width: 100%;
-<<<<<<< HEAD
-	height: 51vw;
+	height: 257vw;
+	z-index: -10;
 }
 
-}
 .Eff1:hover , .Eff2:hover , .Eff3:hover, .Eff4:hover , .SP1:hover , .SP2:hover , .setpun1:hover , .SP4:hover , .SP5:hover , .SP6:hover{
     cursor: url(rc.cur), auto;
     filter: drop-shadow(0 0 50px crimson);
@@ -308,8 +307,3 @@ body{
   left: 1200px;
   top: 4600px;
 }
-=======
-	height: 257vw;
-	z-index: -10;
-}
->>>>>>> bd7d88343f56a091b13e8fe200b5874dfc5ba660
